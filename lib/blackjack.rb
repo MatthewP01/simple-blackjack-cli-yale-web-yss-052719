@@ -73,7 +73,8 @@ def runner
     prompt_user
   until counter >= 21
     hit?(counter)
+  end
   if counter > 21
     end_game(counter)
-
+    
 end
