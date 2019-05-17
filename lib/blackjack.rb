@@ -74,5 +74,6 @@ def runner
   until counter >= 21
     hit?(counter)
   if counter > 21
+    end_game(counter)
 
 end
