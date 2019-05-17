@@ -69,6 +69,7 @@ def runner
   prompt_user
   if 'h'
     hit?(counter)
+  end
   elsif 's'
     prompt_user
   end
