@@ -69,7 +69,7 @@ def runner
   prompt_user
   if 'h'
     hit?(counter)
-  if 's'
+  elsif 's'
     prompt_user
   until counter >= 21
     hit?(counter)
