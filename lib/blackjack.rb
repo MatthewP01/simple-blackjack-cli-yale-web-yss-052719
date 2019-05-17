@@ -69,5 +69,5 @@ def runner
   hit?
   until counter >= 21
     hit?
-
+    
 end
