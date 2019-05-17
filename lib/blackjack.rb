@@ -69,6 +69,8 @@ def runner
   prompt_user
   if 'h'
     hit?(counter)
+  if 's'
+    
   until counter >= 21
     hit?
 
