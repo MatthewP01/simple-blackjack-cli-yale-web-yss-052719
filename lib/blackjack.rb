@@ -16,6 +16,7 @@ end
 
 def prompt_user
   # code #prompt_user here
+  "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
@@ -28,6 +29,7 @@ end
 
 def initial_round
   # code #initial_round here
+  
 end
 
 def hit?
