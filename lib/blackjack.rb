@@ -48,6 +48,8 @@ def hit?(current_total)
   if get_user_input == 's'
     current_total = current_total
   if get_user_input !== 'h' || 's'
+    invalid_command
+    prompt_user
 end
 
 def invalid_command
