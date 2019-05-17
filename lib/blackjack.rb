@@ -68,6 +68,7 @@ def runner
   counter = initial_round
   prompt_user
   if 'h'
+    hit?
   until counter >= 21
     hit?
 
