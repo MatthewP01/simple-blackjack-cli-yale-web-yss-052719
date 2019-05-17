@@ -76,5 +76,4 @@ def runner
   end
   if counter > 21
     end_game(counter)
-
 end
