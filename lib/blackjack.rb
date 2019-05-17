@@ -67,6 +67,7 @@ def runner
   welcome
   counter = initial_round
   prompt_user
+  user_input = get_user_input
   if 'h'
     hit?(counter)
   end
