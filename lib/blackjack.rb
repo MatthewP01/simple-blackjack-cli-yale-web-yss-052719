@@ -72,6 +72,7 @@ def runner
   if 's'
     prompt_user
   until counter >= 21
-    hit?
+    hit?(counter)
+    
 
 end
