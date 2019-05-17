@@ -70,7 +70,6 @@ def runner
   user_input = get_user_input
   if user_input == 'h'
     hit?(counter)
-  end
   elsif 's'
     prompt_user
   end
