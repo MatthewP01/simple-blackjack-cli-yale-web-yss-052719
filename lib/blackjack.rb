@@ -70,7 +70,7 @@ def runner
   user_input = get_user_input
   if user_input == 'h'
     hit?(counter)
-  elsif 's'
+  elsif user_input == 's'
     prompt_user
   end
   until counter >= 21
