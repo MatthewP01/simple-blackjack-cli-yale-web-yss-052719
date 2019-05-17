@@ -73,6 +73,6 @@ def runner
     prompt_user
   until counter >= 21
     hit?(counter)
-
+  if counter > 21
 
 end
