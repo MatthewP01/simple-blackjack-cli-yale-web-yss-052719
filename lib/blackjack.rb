@@ -66,6 +66,7 @@ def runner
   # code runner here
   welcome
   counter = initial_round
-  hit?
+  until counter >= 21
+    hit?
 
 end
