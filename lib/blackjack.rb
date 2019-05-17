@@ -45,6 +45,7 @@ def hit?(current_total)
   if get_user_input == 'h'
     new_card = deal_card
     current_total += new_card
+  if get_user_input == 's'
 end
 
 def invalid_command
