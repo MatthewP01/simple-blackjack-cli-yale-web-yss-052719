@@ -72,7 +72,7 @@ def runner
   elsif 's'
     prompt_user
   until counter >= 21
-    hit?(counter)
+    new_total = hit?(counter)
   end
   if counter > 21
     end_game(counter)
