@@ -72,6 +72,8 @@ def runner
     hit?(counter)
   elsif user_input == 's'
     prompt_user
+  else
+    invalid_command
   end
   until counter >= 21
     counter = hit?(counter)
